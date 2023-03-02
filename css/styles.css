@@ -63,6 +63,13 @@ body {
   padding: 5px;
 }
 
+.recipe-image {
+  background: #fd4646;
+  height: auto;
+  width: 600px;
+  padding: 5px;
+}
+
 /*
 **** Layout end****
 */
