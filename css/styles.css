@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background: #e0e0e0;
+}
+
+/*
+**** Layout ****
+*/
+#header-area {
+  background: #fd4646;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+#main-area {
+  width: 920px;
+  margin: auto;
+  padding: 15px;
+}
+
+.main-paragraph {
+  margin-bottom: 20px;
+}
+
+#recipe-area {
+  width: 660px;
+  float: right;
+}
+
+.recipe {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #fff;
+}
+
+.link-container {
+  clear: both;
+}
+
+#lateral-area {
+  width: 240px;
+  float: left;
+}
+
+.lateral-menu {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.home-images {
+  background: #fd4646;
+  height: 170px;
+  width: auto;
+  padding: 5px;
+}
+
+/*
+**** Layout end****
+*/
+
+/*
+**** Menu formatting ****
+*/
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #fd4646;
+}
+
+a:hover {
+  background: #fd4646;
+  color: #ffffff;
+}
